@@ -17,6 +17,7 @@
 		BC4FFE9A21E1DA6E00C5846C /* RootListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */; };
 		BC4FFE9C21E1DB3B00C5846C /* RatedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9B21E1DB3B00C5846C /* RatedList.swift */; };
 		BC4FFE9E21E1E3B100C5846C /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */; };
+		BC4FFEA021E1F32F00C5846C /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9F21E1F32F00C5846C /* ListDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListsTableViewController.swift; sourceTree = "<group>"; };
 		BC4FFE9B21E1DB3B00C5846C /* RatedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedList.swift; sourceTree = "<group>"; };
 		BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
+		BC4FFE9F21E1F32F00C5846C /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BC4FFE6821E1D7EE00C5846C /* AppDelegate.swift */,
 				BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */,
 				BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */,
+				BC4FFE9F21E1F32F00C5846C /* ListDetailViewController.swift */,
 				BC4FFE9B21E1DB3B00C5846C /* RatedList.swift */,
 				BC4FFE6C21E1D7EE00C5846C /* Main.storyboard */,
 				BC4FFE7221E1D7EF00C5846C /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				BC4FFE7121E1D7EE00C5846C /* RateThi.xcdatamodeld in Sources */,
 				BC4FFE9E21E1E3B100C5846C /* AddListViewController.swift in Sources */,
 				BC4FFE9A21E1DA6E00C5846C /* RootListsTableViewController.swift in Sources */,
+				BC4FFEA021E1F32F00C5846C /* ListDetailViewController.swift in Sources */,
 				BC4FFE9C21E1DB3B00C5846C /* RatedList.swift in Sources */,
 				BC4FFE6921E1D7EE00C5846C /* AppDelegate.swift in Sources */,
 			);

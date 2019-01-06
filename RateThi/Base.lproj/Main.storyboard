@@ -40,6 +40,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="PrS-Rm-ifG" kind="show" identifier="moveToListDetail" id="EpA-8j-9xZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5oq-Oe-G8v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,6 +121,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2tt-JI-LO8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-143.19999999999999" y="-23.838080959520241"/>
+        </scene>
+        <!--List Detail View Controller-->
+        <scene sceneID="ozI-l6-Tko">
+            <objects>
+                <viewController id="PrS-Rm-ifG" customClass="ListDetailViewController" customModule="RateThi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gGo-EA-gLE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8q8-RG-vmv">
+                                <rect key="frame" x="165" y="617" width="45" height="30"/>
+                                <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="deleteList:" destination="PrS-Rm-ifG" eventType="touchUpInside" id="DQT-Ev-Aov"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6q5-u4-AfK">
+                                <rect key="frame" x="16" y="84" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6q5-u4-AfK" firstAttribute="leading" secondItem="c5F-nG-ckd" secondAttribute="leading" constant="16" id="BZQ-VV-U7J"/>
+                            <constraint firstItem="6q5-u4-AfK" firstAttribute="top" secondItem="c5F-nG-ckd" secondAttribute="top" constant="20" id="CoE-Oz-cJ2"/>
+                            <constraint firstItem="c5F-nG-ckd" firstAttribute="bottom" secondItem="8q8-RG-vmv" secondAttribute="bottom" constant="20" id="mh6-sV-8y1"/>
+                            <constraint firstItem="8q8-RG-vmv" firstAttribute="centerX" secondItem="gGo-EA-gLE" secondAttribute="centerX" id="tLI-RX-qcB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c5F-nG-ckd"/>
+                    </view>
+                    <connections>
+                        <outlet property="listNameLabel" destination="6q5-u4-AfK" id="nsy-yx-NOL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJj-UO-uvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1616.8" y="-24.7376311844078"/>
         </scene>
     </scenes>
 </document>
