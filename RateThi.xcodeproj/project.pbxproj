@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BC4FFE6921E1D7EE00C5846C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE6821E1D7EE00C5846C /* AppDelegate.swift */; };
-		BC4FFE6B21E1D7EE00C5846C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE6A21E1D7EE00C5846C /* ViewController.swift */; };
 		BC4FFE6E21E1D7EE00C5846C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4FFE6C21E1D7EE00C5846C /* Main.storyboard */; };
 		BC4FFE7121E1D7EE00C5846C /* RateThi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE6F21E1D7EE00C5846C /* RateThi.xcdatamodeld */; };
 		BC4FFE7321E1D7EF00C5846C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4FFE7221E1D7EF00C5846C /* Assets.xcassets */; };
 		BC4FFE7621E1D7EF00C5846C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4FFE7421E1D7EF00C5846C /* LaunchScreen.storyboard */; };
 		BC4FFE8121E1D7EF00C5846C /* RateThiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE8021E1D7EF00C5846C /* RateThiTests.swift */; };
 		BC4FFE8C21E1D7EF00C5846C /* RateThiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE8B21E1D7EF00C5846C /* RateThiUITests.swift */; };
+		BC4FFE9A21E1DA6E00C5846C /* RootListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */; };
+		BC4FFE9C21E1DB3B00C5846C /* RatedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9B21E1DB3B00C5846C /* RatedList.swift */; };
+		BC4FFE9E21E1E3B100C5846C /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		BC4FFE6521E1D7EE00C5846C /* RateThi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateThi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4FFE6821E1D7EE00C5846C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC4FFE6A21E1D7EE00C5846C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC4FFE6D21E1D7EE00C5846C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC4FFE7021E1D7EE00C5846C /* RateThi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RateThi.xcdatamodel; sourceTree = "<group>"; };
 		BC4FFE7221E1D7EF00C5846C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		BC4FFE8721E1D7EF00C5846C /* RateThiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateThiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4FFE8B21E1D7EF00C5846C /* RateThiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateThiUITests.swift; sourceTree = "<group>"; };
 		BC4FFE8D21E1D7EF00C5846C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListsTableViewController.swift; sourceTree = "<group>"; };
+		BC4FFE9B21E1DB3B00C5846C /* RatedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedList.swift; sourceTree = "<group>"; };
+		BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				BC4FFE6821E1D7EE00C5846C /* AppDelegate.swift */,
-				BC4FFE6A21E1D7EE00C5846C /* ViewController.swift */,
+				BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */,
+				BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */,
+				BC4FFE9B21E1DB3B00C5846C /* RatedList.swift */,
 				BC4FFE6C21E1D7EE00C5846C /* Main.storyboard */,
 				BC4FFE7221E1D7EF00C5846C /* Assets.xcassets */,
 				BC4FFE7421E1D7EF00C5846C /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC4FFE7121E1D7EE00C5846C /* RateThi.xcdatamodeld in Sources */,
-				BC4FFE6B21E1D7EE00C5846C /* ViewController.swift in Sources */,
+				BC4FFE9E21E1E3B100C5846C /* AddListViewController.swift in Sources */,
+				BC4FFE9A21E1DA6E00C5846C /* RootListsTableViewController.swift in Sources */,
+				BC4FFE9C21E1DB3B00C5846C /* RatedList.swift in Sources */,
 				BC4FFE6921E1D7EE00C5846C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThi;
+				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThi;
+				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
