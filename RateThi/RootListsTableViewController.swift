@@ -108,9 +108,7 @@ class RootListsTableViewController: UITableViewController {
     }
 
     func deleteList(_ toDelete : RatedList) {
-        self.ratedLists.removeAll { (item: RatedList) -> Bool in
-            item.name == toDelete.name
-        }
+        self.ratedLists.removeAll { $0.name == toDelete.name }
         self.tableView.reloadData()
     }
     
