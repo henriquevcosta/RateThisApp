@@ -23,14 +23,13 @@ class AddListViewController: UIViewController {
     }
 
     @IBAction func addTapped(_ sender: Any) {
-        let newList = RatedList()
         if let name = newListName.text {
-            newList.name = name
-            newList.important = isImportantSwitch.isOn
-
-            previousVC.addNewList(newList)
-            navigationController?.popViewController(animated: true)
-
+            if let context = previousVC.getContext() {
+                let newList = RatedList(context: context)
+                newList.name = name
+                try? context.save()
+                navigationController?.popViewController(animated: true)
+            }
         } else {
             print("Bugger, null name from text box")
             return

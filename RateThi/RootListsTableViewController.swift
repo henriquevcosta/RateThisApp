@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class RootListsTableViewController: UITableViewController {
     
@@ -14,23 +15,24 @@ class RootListsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        ratedLists = createDummyItems()
     }
-    
+
+    override func viewWillAppear(_ animated: Bool) {
+        fetchRatedLists()
+    }
+
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-    
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return ratedLists.count
     }
-    
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ratedListsIdentifier", for: indexPath)
         
@@ -45,7 +47,22 @@ class RootListsTableViewController: UITableViewController {
         let selectedList = ratedLists[indexPath.row]
         performSegue(withIdentifier: "moveToListDetail", sender: selectedList)
     }
-    
+
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        // Swipe for delete
+        if editingStyle == .delete {
+            // Delete the row from the data source
+            tableView.deleteRows(at: [indexPath], with: .fade)
+
+        } else if editingStyle == .insert {
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        }
+    }
+
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
     /*
      // Override to support conditional editing of the table view.
      override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -66,12 +83,12 @@ class RootListsTableViewController: UITableViewController {
      }
      */
     
-    /*
+
      // Override to support rearranging the table view.
      override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
      
      }
-     */
+     
     
     /*
      // Override to support conditional rearranging of the table view.
@@ -81,7 +98,21 @@ class RootListsTableViewController: UITableViewController {
      }
      */
     
-    
+
+    func getContext() -> NSManagedObjectContext? {
+        return (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext
+    }
+
+    func fetchRatedLists() {
+        if let context = getContext(),
+            let fetchedResults = try? context.fetch(RatedList.fetchRequest()) as? [RatedList],
+            let returnedList = fetchedResults {
+
+            self.ratedLists = returnedList
+            self.tableView.reloadData()
+        }
+    }
+
     // MARK: - Navigation
     
     // Ensure the next VC has a reference to me
@@ -102,27 +133,11 @@ class RootListsTableViewController: UITableViewController {
     
     
     // MARK: API
-    func addNewList(_ newList : RatedList) {
-        self.ratedLists.append(newList)
-        self.tableView.reloadData()
-    }
-
     func deleteList(_ toDelete : RatedList) {
+
+        
         self.ratedLists.removeAll { $0.name == toDelete.name }
         self.tableView.reloadData()
     }
-    
-    // TODO Remove
-    func createDummyItems() -> [RatedList] {
-        
-        let eggs = RatedList()
-        eggs.name = "Buy eggs"
-        eggs.important = false
-        
-        let dog = RatedList()
-        dog.name = "Walk dog"
-        dog.important = true
-        
-        return [eggs, dog]
-    }
+
 }

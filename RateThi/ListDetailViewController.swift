@@ -20,15 +20,12 @@ class ListDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let list = selectedItem {
-            listNameLabel.text = list.name
-        }
-        // Do any additional setup after loading the view.
+        listNameLabel.text = selectedItem?.name
     }
     
     @IBAction func deleteList(_ sender: Any) {
-        if let list = selectedItem {
-            previousVC.deleteList(list)
+        if let context = previousVC.getContext() {
+            selectedItem.map { context.delete($0) }
             navigationController?.popViewController(animated: true)
         }
     }
