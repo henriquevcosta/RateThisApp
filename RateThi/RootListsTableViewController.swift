@@ -119,7 +119,7 @@ class RootListsTableViewController: UITableViewController {
         if let addVC = segue.destination as? AddListViewController {
             addVC.previousVC = self
         }
-        
+
         // Pass the selected object to the new view controller.
         if let listDetailVC = segue.destination as? ListDetailViewController,
            let selectedList = sender as? RatedList {
@@ -127,7 +127,22 @@ class RootListsTableViewController: UITableViewController {
                 listDetailVC.selectedItem = selectedList
         }
     }
-    
+
+    //Unwind from the list Add screen
+    @IBAction func addTapped(sender: UIStoryboardSegue) {
+        if let listAddController = sender.source as? AddListViewController,
+            let name = listAddController.newListName.text,
+            let context = getContext() {
+            let newList = RatedList(context: context)
+            newList.name = name
+            try? context.save()
+            navigationController?.popViewController(animated: true)
+
+        } else {
+            print("Bugger, null name from text box")
+            return
+        }
+    }
     
     // MARK: API
 

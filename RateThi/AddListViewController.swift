@@ -19,18 +19,4 @@ class AddListViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func addTapped(_ sender: Any) {
-        if let name = newListName.text {
-            if let context = previousVC.getContext() {
-                let newList = RatedList(context: context)
-                newList.name = name
-                try? context.save()
-                navigationController?.popViewController(animated: true)
-            }
-        } else {
-            print("Bugger, null name from text box")
-            return
-        }
-    }
 }
