@@ -1,15 +1,15 @@
 //
-//  RateThiTests.swift
-//  RateThiTests
+//  RateThisTests.swift
+//  RateThisTests
 //
 //  Created by Henrique Costa on 06/01/2019.
 //  Copyright © 2019 Henrique Costa. All rights reserved.
 //
 
 import XCTest
-@testable import RateThi
+@testable import RateThis
 
-class RateThiTests: XCTestCase {
+class RateThisTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

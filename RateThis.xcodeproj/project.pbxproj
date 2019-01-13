@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC268CE021EB7E34008267AE /* RateThis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC268CDE21EB7E34008267AE /* RateThis.xcdatamodeld */; };
 		BC4FFE6921E1D7EE00C5846C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE6821E1D7EE00C5846C /* AppDelegate.swift */; };
 		BC4FFE6E21E1D7EE00C5846C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4FFE6C21E1D7EE00C5846C /* Main.storyboard */; };
-		BC4FFE7121E1D7EE00C5846C /* RateThi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE6F21E1D7EE00C5846C /* RateThi.xcdatamodeld */; };
 		BC4FFE7321E1D7EF00C5846C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4FFE7221E1D7EF00C5846C /* Assets.xcassets */; };
 		BC4FFE7621E1D7EF00C5846C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4FFE7421E1D7EF00C5846C /* LaunchScreen.storyboard */; };
-		BC4FFE8121E1D7EF00C5846C /* RateThiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE8021E1D7EF00C5846C /* RateThiTests.swift */; };
-		BC4FFE8C21E1D7EF00C5846C /* RateThiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE8B21E1D7EF00C5846C /* RateThiUITests.swift */; };
+		BC4FFE8121E1D7EF00C5846C /* RateThisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE8021E1D7EF00C5846C /* RateThisTests.swift */; };
+		BC4FFE8C21E1D7EF00C5846C /* RateThisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE8B21E1D7EF00C5846C /* RateThisUITests.swift */; };
 		BC4FFE9A21E1DA6E00C5846C /* RootListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */; };
 		BC4FFE9E21E1E3B100C5846C /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */; };
 		BC4FFEA021E1F32F00C5846C /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FFE9F21E1F32F00C5846C /* ListDetailViewController.swift */; };
@@ -37,18 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC4FFE6521E1D7EE00C5846C /* RateThi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateThi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC268CDF21EB7E34008267AE /* RateThis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RateThis.xcdatamodel; sourceTree = "<group>"; };
+		BC4FFE6521E1D7EE00C5846C /* RateThis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateThis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4FFE6821E1D7EE00C5846C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC4FFE6D21E1D7EE00C5846C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC4FFE7021E1D7EE00C5846C /* RateThi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RateThi.xcdatamodel; sourceTree = "<group>"; };
 		BC4FFE7221E1D7EF00C5846C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC4FFE7521E1D7EF00C5846C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC4FFE7721E1D7EF00C5846C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC4FFE7C21E1D7EF00C5846C /* RateThiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateThiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC4FFE8021E1D7EF00C5846C /* RateThiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateThiTests.swift; sourceTree = "<group>"; };
+		BC4FFE7C21E1D7EF00C5846C /* RateThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateThisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4FFE8021E1D7EF00C5846C /* RateThisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateThisTests.swift; sourceTree = "<group>"; };
 		BC4FFE8221E1D7EF00C5846C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC4FFE8721E1D7EF00C5846C /* RateThiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateThiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC4FFE8B21E1D7EF00C5846C /* RateThiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateThiUITests.swift; sourceTree = "<group>"; };
+		BC4FFE8721E1D7EF00C5846C /* RateThisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateThisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4FFE8B21E1D7EF00C5846C /* RateThisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateThisUITests.swift; sourceTree = "<group>"; };
 		BC4FFE8D21E1D7EF00C5846C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4FFE9921E1DA6E00C5846C /* RootListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListsTableViewController.swift; sourceTree = "<group>"; };
 		BC4FFE9D21E1E3B100C5846C /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
@@ -80,27 +80,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC268CDA21EB7A53008267AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC4FFE5C21E1D7EE00C5846C = {
 			isa = PBXGroup;
 			children = (
-				BC4FFE6721E1D7EE00C5846C /* RateThi */,
-				BC4FFE7F21E1D7EF00C5846C /* RateThiTests */,
-				BC4FFE8A21E1D7EF00C5846C /* RateThiUITests */,
+				BC4FFE6721E1D7EE00C5846C /* RateThis */,
+				BC4FFE7F21E1D7EF00C5846C /* RateThisTests */,
+				BC4FFE8A21E1D7EF00C5846C /* RateThisUITests */,
 				BC4FFE6621E1D7EE00C5846C /* Products */,
+				BC268CDA21EB7A53008267AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		BC4FFE6621E1D7EE00C5846C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC4FFE6521E1D7EE00C5846C /* RateThi.app */,
-				BC4FFE7C21E1D7EF00C5846C /* RateThiTests.xctest */,
-				BC4FFE8721E1D7EF00C5846C /* RateThiUITests.xctest */,
+				BC4FFE6521E1D7EE00C5846C /* RateThis.app */,
+				BC4FFE7C21E1D7EF00C5846C /* RateThisTests.xctest */,
+				BC4FFE8721E1D7EF00C5846C /* RateThisUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC4FFE6721E1D7EE00C5846C /* RateThi */ = {
+		BC4FFE6721E1D7EE00C5846C /* RateThis */ = {
 			isa = PBXGroup;
 			children = (
 				BC4FFE6821E1D7EE00C5846C /* AppDelegate.swift */,
@@ -111,35 +119,35 @@
 				BC4FFE7221E1D7EF00C5846C /* Assets.xcassets */,
 				BC4FFE7421E1D7EF00C5846C /* LaunchScreen.storyboard */,
 				BC4FFE7721E1D7EF00C5846C /* Info.plist */,
-				BC4FFE6F21E1D7EE00C5846C /* RateThi.xcdatamodeld */,
+				BC268CDE21EB7E34008267AE /* RateThis.xcdatamodeld */,
 			);
-			path = RateThi;
+			path = RateThis;
 			sourceTree = "<group>";
 		};
-		BC4FFE7F21E1D7EF00C5846C /* RateThiTests */ = {
+		BC4FFE7F21E1D7EF00C5846C /* RateThisTests */ = {
 			isa = PBXGroup;
 			children = (
-				BC4FFE8021E1D7EF00C5846C /* RateThiTests.swift */,
+				BC4FFE8021E1D7EF00C5846C /* RateThisTests.swift */,
 				BC4FFE8221E1D7EF00C5846C /* Info.plist */,
 			);
-			path = RateThiTests;
+			path = RateThisTests;
 			sourceTree = "<group>";
 		};
-		BC4FFE8A21E1D7EF00C5846C /* RateThiUITests */ = {
+		BC4FFE8A21E1D7EF00C5846C /* RateThisUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BC4FFE8B21E1D7EF00C5846C /* RateThiUITests.swift */,
+				BC4FFE8B21E1D7EF00C5846C /* RateThisUITests.swift */,
 				BC4FFE8D21E1D7EF00C5846C /* Info.plist */,
 			);
-			path = RateThiUITests;
+			path = RateThisUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC4FFE6421E1D7EE00C5846C /* RateThi */ = {
+		BC4FFE6421E1D7EE00C5846C /* RateThis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC4FFE9021E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThi" */;
+			buildConfigurationList = BC4FFE9021E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThis" */;
 			buildPhases = (
 				BC4FFE6121E1D7EE00C5846C /* Sources */,
 				BC4FFE6221E1D7EE00C5846C /* Frameworks */,
@@ -149,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = RateThi;
+			name = RateThis;
 			productName = RateThi;
-			productReference = BC4FFE6521E1D7EE00C5846C /* RateThi.app */;
+			productReference = BC4FFE6521E1D7EE00C5846C /* RateThis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BC4FFE7B21E1D7EF00C5846C /* RateThiTests */ = {
+		BC4FFE7B21E1D7EF00C5846C /* RateThisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC4FFE9321E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThiTests" */;
+			buildConfigurationList = BC4FFE9321E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThisTests" */;
 			buildPhases = (
 				BC4FFE7821E1D7EF00C5846C /* Sources */,
 				BC4FFE7921E1D7EF00C5846C /* Frameworks */,
@@ -167,14 +175,14 @@
 			dependencies = (
 				BC4FFE7E21E1D7EF00C5846C /* PBXTargetDependency */,
 			);
-			name = RateThiTests;
+			name = RateThisTests;
 			productName = RateThiTests;
-			productReference = BC4FFE7C21E1D7EF00C5846C /* RateThiTests.xctest */;
+			productReference = BC4FFE7C21E1D7EF00C5846C /* RateThisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BC4FFE8621E1D7EF00C5846C /* RateThiUITests */ = {
+		BC4FFE8621E1D7EF00C5846C /* RateThisUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC4FFE9621E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThiUITests" */;
+			buildConfigurationList = BC4FFE9621E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThisUITests" */;
 			buildPhases = (
 				BC4FFE8321E1D7EF00C5846C /* Sources */,
 				BC4FFE8421E1D7EF00C5846C /* Frameworks */,
@@ -185,9 +193,9 @@
 			dependencies = (
 				BC4FFE8921E1D7EF00C5846C /* PBXTargetDependency */,
 			);
-			name = RateThiUITests;
+			name = RateThisUITests;
 			productName = RateThiUITests;
-			productReference = BC4FFE8721E1D7EF00C5846C /* RateThiUITests.xctest */;
+			productReference = BC4FFE8721E1D7EF00C5846C /* RateThisUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -202,6 +210,11 @@
 				TargetAttributes = {
 					BC4FFE6421E1D7EE00C5846C = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					BC4FFE7B21E1D7EF00C5846C = {
 						CreatedOnToolsVersion = 10.1;
@@ -213,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC4FFE6021E1D7EE00C5846C /* Build configuration list for PBXProject "RateThi" */;
+			buildConfigurationList = BC4FFE6021E1D7EE00C5846C /* Build configuration list for PBXProject "RateThis" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC4FFE6421E1D7EE00C5846C /* RateThi */,
-				BC4FFE7B21E1D7EF00C5846C /* RateThiTests */,
-				BC4FFE8621E1D7EF00C5846C /* RateThiUITests */,
+				BC4FFE6421E1D7EE00C5846C /* RateThis */,
+				BC4FFE7B21E1D7EF00C5846C /* RateThisTests */,
+				BC4FFE8621E1D7EF00C5846C /* RateThisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,10 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4FFE7121E1D7EE00C5846C /* RateThi.xcdatamodeld in Sources */,
 				BC4FFE9E21E1E3B100C5846C /* AddListViewController.swift in Sources */,
 				BC4FFE9A21E1DA6E00C5846C /* RootListsTableViewController.swift in Sources */,
 				BC4FFEA021E1F32F00C5846C /* ListDetailViewController.swift in Sources */,
+				BC268CE021EB7E34008267AE /* RateThis.xcdatamodeld in Sources */,
 				BC4FFE6921E1D7EE00C5846C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4FFE8121E1D7EF00C5846C /* RateThiTests.swift in Sources */,
+				BC4FFE8121E1D7EF00C5846C /* RateThisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4FFE8C21E1D7EF00C5846C /* RateThiUITests.swift in Sources */,
+				BC4FFE8C21E1D7EF00C5846C /* RateThisUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		BC4FFE7E21E1D7EF00C5846C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC4FFE6421E1D7EE00C5846C /* RateThi */;
+			target = BC4FFE6421E1D7EE00C5846C /* RateThis */;
 			targetProxy = BC4FFE7D21E1D7EF00C5846C /* PBXContainerItemProxy */;
 		};
 		BC4FFE8921E1D7EF00C5846C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC4FFE6421E1D7EE00C5846C /* RateThi */;
+			target = BC4FFE6421E1D7EE00C5846C /* RateThis */;
 			targetProxy = BC4FFE8821E1D7EF00C5846C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,7 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q5474C5VC;
-				INFOPLIST_FILE = RateThi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RateThis/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q5474C5VC;
-				INFOPLIST_FILE = RateThi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RateThis/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,17 +496,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q5474C5VC;
-				INFOPLIST_FILE = RateThiTests/Info.plist;
+				INFOPLIST_FILE = RateThisTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateThi.app/RateThi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateThis.app/RateThis";
 			};
 			name = Debug;
 		};
@@ -504,17 +517,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q5474C5VC;
-				INFOPLIST_FILE = RateThiTests/Info.plist;
+				INFOPLIST_FILE = RateThisTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateThi.app/RateThi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateThis.app/RateThis";
 			};
 			name = Release;
 		};
@@ -524,13 +537,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q5474C5VC;
-				INFOPLIST_FILE = RateThiUITests/Info.plist;
+				INFOPLIST_FILE = RateThisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThisUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,13 +557,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q5474C5VC;
-				INFOPLIST_FILE = RateThiUITests/Info.plist;
+				INFOPLIST_FILE = RateThisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.hvcosta.RateThisUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -561,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC4FFE6021E1D7EE00C5846C /* Build configuration list for PBXProject "RateThi" */ = {
+		BC4FFE6021E1D7EE00C5846C /* Build configuration list for PBXProject "RateThis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC4FFE8E21E1D7EF00C5846C /* Debug */,
@@ -570,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC4FFE9021E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThi" */ = {
+		BC4FFE9021E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC4FFE9121E1D7EF00C5846C /* Debug */,
@@ -579,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC4FFE9321E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThiTests" */ = {
+		BC4FFE9321E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC4FFE9421E1D7EF00C5846C /* Debug */,
@@ -588,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC4FFE9621E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThiUITests" */ = {
+		BC4FFE9621E1D7EF00C5846C /* Build configuration list for PBXNativeTarget "RateThisUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC4FFE9721E1D7EF00C5846C /* Debug */,
@@ -600,13 +613,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BC4FFE6F21E1D7EE00C5846C /* RateThi.xcdatamodeld */ = {
+		BC268CDE21EB7E34008267AE /* RateThis.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BC4FFE7021E1D7EE00C5846C /* RateThi.xcdatamodel */,
+				BC268CDF21EB7E34008267AE /* RateThis.xcdatamodel */,
 			);
-			currentVersion = BC4FFE7021E1D7EE00C5846C /* RateThi.xcdatamodel */;
-			path = RateThi.xcdatamodeld;
+			currentVersion = BC268CDF21EB7E34008267AE /* RateThis.xcdatamodel */;
+			path = RateThis.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

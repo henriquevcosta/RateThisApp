@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC4FFE6421E1D7EE00C5846C"
-               BuildableName = "RateThi.app"
-               BlueprintName = "RateThi"
-               ReferencedContainer = "container:RateThi.xcodeproj">
+               BuildableName = "RateThis.app"
+               BlueprintName = "RateThis"
+               ReferencedContainer = "container:RateThis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC4FFE7B21E1D7EF00C5846C"
-               BuildableName = "RateThiTests.xctest"
-               BlueprintName = "RateThiTests"
-               ReferencedContainer = "container:RateThi.xcodeproj">
+               BuildableName = "RateThisTests.xctest"
+               BlueprintName = "RateThisTests"
+               ReferencedContainer = "container:RateThis.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC4FFE8621E1D7EF00C5846C"
-               BuildableName = "RateThiUITests.xctest"
-               BlueprintName = "RateThiUITests"
-               ReferencedContainer = "container:RateThi.xcodeproj">
+               BuildableName = "RateThisUITests.xctest"
+               BlueprintName = "RateThisUITests"
+               ReferencedContainer = "container:RateThis.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC4FFE6421E1D7EE00C5846C"
-            BuildableName = "RateThi.app"
-            BlueprintName = "RateThi"
-            ReferencedContainer = "container:RateThi.xcodeproj">
+            BuildableName = "RateThis.app"
+            BlueprintName = "RateThis"
+            ReferencedContainer = "container:RateThis.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC4FFE6421E1D7EE00C5846C"
-            BuildableName = "RateThi.app"
-            BlueprintName = "RateThi"
-            ReferencedContainer = "container:RateThi.xcodeproj">
+            BuildableName = "RateThis.app"
+            BlueprintName = "RateThis"
+            ReferencedContainer = "container:RateThis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC4FFE6421E1D7EE00C5846C"
-            BuildableName = "RateThi.app"
-            BlueprintName = "RateThi"
-            ReferencedContainer = "container:RateThi.xcodeproj">
+            BuildableName = "RateThis.app"
+            BlueprintName = "RateThis"
+            ReferencedContainer = "container:RateThis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
