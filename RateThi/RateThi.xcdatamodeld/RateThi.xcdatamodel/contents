@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ListItem" representedClassName="ListItem" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptiontext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="list" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RatedList" inverseName="items" inverseEntity="RatedList" syncable="YES"/>
+    </entity>
     <entity name="RatedList" representedClassName="RatedList" syncable="YES" codeGenerationType="class">
         <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ListItem" inverseName="list" inverseEntity="ListItem" syncable="YES"/>
     </entity>
     <elements>
-        <element name="RatedList" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="RatedList" positionX="-54" positionY="-9" width="128" height="73"/>
+        <element name="ListItem" positionX="-294.98828125" positionY="37.19140625" width="128" height="103"/>
     </elements>
 </model>

@@ -43,7 +43,6 @@ class RootListsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         let selectedList = ratedLists[indexPath.row]
         performSegue(withIdentifier: "moveToListDetail", sender: selectedList)
     }
@@ -107,7 +106,6 @@ class RootListsTableViewController: UITableViewController {
         if let context = getContext(),
             let fetchedResults = try? context.fetch(RatedList.fetchRequest()) as? [RatedList],
             let returnedList = fetchedResults {
-
             self.ratedLists = returnedList
             self.tableView.reloadData()
         }
@@ -123,21 +121,14 @@ class RootListsTableViewController: UITableViewController {
         }
         
         // Pass the selected object to the new view controller.
-        if let listDetailVC = segue.destination as? ListDetailViewController {
-            if let selectedList = sender as? RatedList {
+        if let listDetailVC = segue.destination as? ListDetailViewController,
+           let selectedList = sender as? RatedList {
                 listDetailVC.previousVC = self
                 listDetailVC.selectedItem = selectedList
-            }
         }
     }
     
     
     // MARK: API
-    func deleteList(_ toDelete : RatedList) {
-
-        
-        self.ratedLists.removeAll { $0.name == toDelete.name }
-        self.tableView.reloadData()
-    }
 
 }
